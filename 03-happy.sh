@@ -7,6 +7,7 @@ if [ "$answer" = "yes" ]; then
    echo "Smile :)"
 else
    echo "Still Smile :)"
+date | cut -c1-3
 fi
 
 # here are the other string comparison operators
